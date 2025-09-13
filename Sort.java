@@ -8,7 +8,8 @@ public class Sort {
         SelectionSort ss=new SelectionSort();
         BubbleSort bb=new BubbleSort();
         InsertionSort is=new InsertionSort();
-        is.sort(arr,5);
+        QuickSort q=new QuickSort() ;
+        q.sort(arr,5);
         System.out.println(Arrays.toString(arr));
     }
 }
